@@ -1,0 +1,306 @@
+*{
+    overflow: hidden;
+    
+ }
+ html, body{
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+ }
+ header{
+     backdrop-filter: blur(10px);
+ }
+
+ nav{
+     overflow: hidden;
+ }
+ nav a{
+     margin: 0;
+     float: right;
+     text-align: center;
+     padding: 14px 100px;
+     text-decoration: none;
+     font-size: 17px;
+     right: 60px;
+     color: white;
+     font-family: sans-serif;
+     font-weight: bold;
+ }
+ .logo{
+     position: absolute;
+     height: auto;
+     width: 50px;
+     left: 20px;
+ }
+ .logo2{
+     position: absolute;
+     margin: 0;
+     float: left;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+     left: 60px;
+     bottom: 1px;
+     color: white;
+     font-weight: bold;
+     font-family: sans-serif;
+ }
+ .header-container{
+     position: absolute;
+     height: auto;
+     width: 100px;
+     left: 80px;
+     height: auto;
+     bottom: 900px;
+     font-size: 30px;
+     font-weight: bold;
+     color: whitesmoke;
+     float: left;
+ }
+ section{
+     position: absolute;
+     width: 100%;
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     background-size: cover;
+     background-position: center;
+     animation: color 20s infinite;
+     overflow: hidden;
+ }
+ .filter{
+     backdrop-filter: blur(10px);
+ }
+ @keyframes color {
+     0% { background-image: url("https://i.imgur.com/o8AnmmX.jpg"); }
+     25% { background-image: url("https://i.imgur.com/hzKQVq4.jpg"); }
+     50% { background-image: url("https://i.imgur.com/Tc6aIDd.png"); }
+     75% { background-image: url("https://i.imgur.com/hzKQVq4.jpg"); }
+     100% { background-image: url("https://i.imgur.com/o8AnmmX.jpg"); }
+ }
+ .content{
+     position: relative;
+     margin: 400px;
+     width: auto;
+     max-width: 80%;
+     bottom: 400px;
+     color: white;
+     text-align: center;
+ }
+
+.info{
+    position: absolute;
+    padding: 10px 20px;
+}
+ 
+ ::-webkit-scrollbar{
+     display: none;
+ }
+ 
+ .btn{
+     font-family: sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     background: #fcdb4d;
+     width: 160px;
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     color: black;
+     border-radius: 5px;
+     cursor: pointer;
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     -webkit-transition-property: box-shadow,transform;
+     transition-property: box-shadow,transform;
+ }
+ 
+ .btn:hover, .btn:focus, .btn:active{
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+ 
+ header nav a:hover{
+     color:#fcdb4d;
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+ 
+ *{
+    overflow: hidden;
+    outline: dotted red 1x;
+ }
+ html, body{
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+ }
+ header{
+     backdrop-filter: blur(10px);
+ }
+
+ nav{
+     overflow: hidden;
+ }
+ nav a{
+     margin: 0;
+     float: right;
+     text-align: center;
+     padding: 14px 100px;
+     text-decoration: none;
+     font-size: 17px;
+     right: 60px;
+     color: white;
+     font-family: sans-serif;
+     font-weight: bold;
+ }
+ .logo{
+     position: absolute;
+     height: auto;
+     width: 50px;
+     left: 20px;
+ }
+ .logo2{
+     position: absolute;
+     margin: 0;
+     float: left;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+     left: 60px;
+     bottom: 1px;
+     color: white;
+     font-weight: bold;
+     font-family: sans-serif;
+ }
+ .header-container{
+     position: absolute;
+     height: auto;
+     width: 100px;
+     left: 80px;
+     height: auto;
+     bottom: 900px;
+     font-size: 30px;
+     font-weight: bold;
+     color: whitesmoke;
+     float: left;
+ }
+ section{
+     position: absolute;
+     width: 100%;
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     background-size: cover;
+     background-position: center;
+     animation: color 20s infinite;
+     overflow: hidden;
+ }
+ .filter{
+     backdrop-filter: blur(10px);
+ }
+ @keyframes color {
+     0% { background-image: url("https://i.imgur.com/o8AnmmX.jpg"); }
+     25% { background-image: url("https://i.imgur.com/hzKQVq4.jpg"); }
+     50% { background-image: url("https://i.imgur.com/Tc6aIDd.png"); }
+     75% { background-image: url("https://i.imgur.com/hzKQVq4.jpg"); }
+     100% { background-image: url("https://i.imgur.com/o8AnmmX.jpg"); }
+ }
+ .content{
+    width: 700px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border: 10px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;   
+    font-family: sans-serif;
+    bottom: 100px;
+    height: 750px;
+}
+
+.content h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.content h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.content p{
+    text-align: justify;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.content li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.content li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.content li a:hover{
+    color: #fcdb4d;
+}
+
+.image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+ ::-webkit-scrollbar{
+     display: none;
+ }
+ 
+ .btn{
+     font-family: sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     background: #fcdb4d;
+     width: 160px;
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     color: black;
+     border-radius: 5px;
+     cursor: pointer;
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     -webkit-transition-property: box-shadow,transform;
+     transition-property: box-shadow,transform;
+ }
+ 
+ .btn:hover, .btn:focus, .btn:active{
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+ 
+ header nav a:hover{
+     color:#fcdb4d;
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+ 
